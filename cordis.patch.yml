@@ -1,0 +1,5 @@
+# dsh-composer-guard bundle patch：只往插件树里插一行。
+# 宿主半区是个空壳（不声明任何 inject），浏览器半区才是真正的逻辑。
+- insert:
+    - id: dsh-composer-guard
+      name: 'dsh-composer-guard'
