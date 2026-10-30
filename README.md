@@ -33,7 +33,7 @@ DSH（DeepSeek Harness）的 Web 界面在手机 WebView 里（尤其是 Android
 ## 安装
 
 ```bash
-git clone https://github.com/<you>/dsh-composer-guard.git /root/dsha-composer-guard
+git clone https://github.com/xyh-sb/dsh-composer-guard.git /root/dsha-composer-guard
 ```
 
 在 profile 的 `package.json` 里加两项（`~/.dsh/profiles/web/package.json`）：
